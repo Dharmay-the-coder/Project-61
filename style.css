@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 9%, rgba(9, 71, 121, 1) 49%, rgba(0, 212, 255, 1) 100%, rgba(0, 212, 255, 1) 100%, rgba(0, 212, 255, 1) 100%);
+}
+
+h1 {
+    text-shadow: 2px 2px 20px #CE0000;
+}
+
+p {
+    text-shadow: 2px 2px 20px rgba(148, 23, 206, 0.94);
+}
+
+img {
+    border-style: solid;
+    border: 20px outset #002cff;
+}
+
+.menu {
+    position: fixed;
+    background: white;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+}
+
+.links {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.links:hover {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: dodgerblue;
+    text-shadow: 2px 2px gainsboro;
+}
